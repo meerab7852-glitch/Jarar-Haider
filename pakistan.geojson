@@ -1,0 +1,429 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Islamabad",
+        "province": "Islamabad Capital Territory",
+        "type": "Capital City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0479, 33.6844]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Rawalpindi",
+        "province": "Punjab",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0479, 33.5651]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Lahore",
+        "province": "Punjab",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.3587, 31.5204]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Faisalabad",
+        "province": "Punjab",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1350, 31.4504]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Multan",
+        "province": "Punjab",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.5249, 30.1575]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Gujranwala",
+        "province": "Punjab",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.1871, 32.1877]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Sialkot",
+        "province": "Punjab",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.5431, 32.4945]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Peshawar",
+        "province": "Khyber Pakhtunkhwa",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.5249, 34.0151]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Abbottabad",
+        "province": "Khyber Pakhtunkhwa",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.2215, 34.1688]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Quetta",
+        "province": "Balochistan",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [66.9750, 30.1798]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Karachi",
+        "province": "Sindh",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.0011, 24.8607]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Hyderabad",
+        "province": "Sindh",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.3578, 25.3960]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Sukkur",
+        "province": "Sindh",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.8574, 27.7139]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Muzaffarabad",
+        "province": "Azad Jammu and Kashmir",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.4711, 34.3700]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "city",
+        "name": "Gilgit",
+        "province": "Gilgit-Baltistan",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.4643, 35.9208]
+      }
+    },
+
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Islamabad Weather Station",
+        "temperature": 28,
+        "rainfall": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0250, 33.7000]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Lahore Weather Station",
+        "temperature": 31,
+        "rainfall": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.3300, 31.5400]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Karachi Weather Station",
+        "temperature": 30,
+        "rainfall": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.0300, 24.8800]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Peshawar Weather Station",
+        "temperature": 29,
+        "rainfall": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.5500, 34.0300]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Quetta Weather Station",
+        "temperature": 24,
+        "rainfall": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [66.9900, 30.2000]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Multan Weather Station",
+        "temperature": 33,
+        "rainfall": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.5500, 30.1700]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Faisalabad Weather Station",
+        "temperature": 30,
+        "rainfall": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1600, 31.4700]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Rawalpindi Weather Station",
+        "temperature": 27,
+        "rainfall": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0700, 33.5800]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Gujranwala Weather Station",
+        "temperature": 29,
+        "rainfall": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.2000, 32.2000]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Sialkot Weather Station",
+        "temperature": 28,
+        "rainfall": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.5600, 32.5100]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Abbottabad Weather Station",
+        "temperature": 23,
+        "rainfall": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.2400, 34.1800]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Hyderabad Weather Station",
+        "temperature": 32,
+        "rainfall": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.3800, 25.4100]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Sukkur Weather Station",
+        "temperature": 34,
+        "rainfall": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.8800, 27.7300]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Muzaffarabad Weather Station",
+        "temperature": 22,
+        "rainfall": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.4900, 34.3900]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "weather",
+        "name": "Gilgit Weather Station",
+        "temperature": 19,
+        "rainfall": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.4800, 35.9400]
+      }
+    }
+
+  ]
+}
+

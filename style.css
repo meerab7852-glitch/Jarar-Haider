@@ -1,0 +1,855 @@
+
+/* =========================================
+   PAKISTAN WEB GIS
+   GREEN + GOLD PROFESSIONAL DASHBOARD
+   ========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+
+    background: #0B1510;
+    color: #F4F1E6;
+
+    min-height: 100vh;
+}
+
+
+/* =========================================
+   TOP NAVIGATION
+   ========================================= */
+
+.topbar {
+    height: 82px;
+
+    background: #122019;
+
+    border-bottom: 1px solid #294332;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 38px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.35);
+}
+
+
+/* Brand */
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.brand-icon {
+    width: 43px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #1A3024;
+
+    border: 1px solid #D4AF37;
+
+    color: #D4AF37;
+
+    font-size: 11px;
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    border-radius: 6px;
+}
+
+.brand h1 {
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #F4F1E6;
+}
+
+.brand p {
+    margin-top: 4px;
+
+    font-size: 11px;
+
+    color: #8FA08F;
+
+    letter-spacing: 0.4px;
+}
+
+
+/* System status */
+
+.top-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 9px 14px;
+
+    background: #1A3024;
+
+    border: 1px solid #34543E;
+
+    border-radius: 5px;
+
+    color: #D4AF37;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.status-light {
+    width: 7px;
+    height: 7px;
+
+    background: #D4AF37;
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.8);
+}
+
+
+/* =========================================
+   MAIN DASHBOARD
+   ========================================= */
+
+.dashboard {
+
+    width: 94%;
+
+    max-width: 1550px;
+
+    margin: 25px auto;
+
+    display: grid;
+
+    grid-template-columns: 290px 1fr;
+
+    gap: 18px;
+
+    min-height: 720px;
+}
+
+
+/* =========================================
+   SIDEBAR
+   ========================================= */
+
+.sidebar {
+
+    background: #122019;
+
+    border: 1px solid #294332;
+
+    border-radius: 8px;
+
+    padding: 24px 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+
+/* Sidebar heading */
+
+.sidebar-heading {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    margin-bottom: 17px;
+}
+
+.gold-line {
+
+    width: 4px;
+
+    height: 22px;
+
+    background: #D4AF37;
+
+    border-radius: 2px;
+}
+
+.sidebar-heading h2 {
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.2px;
+
+    color: #D4AF37;
+}
+
+
+/* Description */
+
+.description {
+
+    font-size: 12px;
+
+    line-height: 1.7;
+
+    color: #9EAE9F;
+
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #294332;
+}
+
+
+/* =========================================
+   SIDEBAR SECTIONS
+   ========================================= */
+
+.side-section {
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #294332;
+}
+
+.side-section h3 {
+
+    font-size: 9px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    color: #788878;
+
+    margin-bottom: 14px;
+}
+
+
+/* Data rows */
+
+.data-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 11px;
+}
+
+.data-row:last-child {
+    margin-bottom: 0;
+}
+
+.data-row span {
+
+    color: #879889;
+
+    font-size: 11px;
+}
+
+.data-row strong {
+
+    color: #D8DED8;
+
+    font-size: 11px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================
+   LAYER ITEMS
+   ========================================= */
+
+.layer-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+
+    padding: 9px 0;
+}
+
+.layer-symbol {
+
+    width: 13px;
+    height: 13px;
+
+    border-radius: 50%;
+
+    flex-shrink: 0;
+}
+
+
+/* City */
+
+.city-symbol {
+
+    background: #D4AF37;
+
+    border: 2px solid #F1D46A;
+
+    box-shadow: 0 0 7px rgba(212, 175, 55, 0.4);
+}
+
+
+/* Weather */
+
+.weather-symbol {
+
+    background: #3D8B5A;
+
+    border: 2px solid #77B88A;
+}
+
+
+/* Layer text */
+
+.layer-item strong {
+
+    display: block;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    color: #D8DED8;
+}
+
+.layer-item small {
+
+    display: block;
+
+    margin-top: 3px;
+
+    color: #718071;
+
+    font-size: 9px;
+}
+
+
+/* Weather info */
+
+.weather-info p {
+
+    color: #879889;
+
+    font-size: 10px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   STUDENT BOX
+   ========================================= */
+
+.student-box {
+
+    margin-top: auto;
+
+    padding: 15px;
+
+    background: #0F1A13;
+
+    border: 1px solid #294332;
+
+    border-radius: 6px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+.student-box span {
+
+    color: #788878;
+
+    font-size: 8px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.student-box strong {
+
+    color: #D4AF37;
+
+    font-size: 13px;
+}
+
+.student-box small {
+
+    color: #788878;
+
+    font-size: 9px;
+}
+
+
+/* =========================================
+   MAP AREA
+   ========================================= */
+
+.map-area {
+
+    background: #122019;
+
+    border: 1px solid #294332;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    display: flex;
+
+    flex-direction: column;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.30);
+}
+
+
+/* =========================================
+   MAP TOOLBAR
+   ========================================= */
+
+.map-toolbar {
+
+    min-height: 78px;
+
+    padding: 15px 22px;
+
+    background: #1A3024;
+
+    border-bottom: 1px solid #34543E;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.map-label {
+
+    display: block;
+
+    color: #D4AF37;
+
+    font-size: 9px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.2px;
+
+    margin-bottom: 5px;
+}
+
+.map-toolbar h2 {
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    color: #F4F1E6;
+}
+
+.map-tools {
+
+    color: #7FA78B;
+
+    font-size: 9px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.8px;
+}
+
+
+/* =========================================
+   MAP
+   ========================================= */
+
+#map {
+
+    width: 100%;
+
+    height: 620px;
+
+    flex: 1;
+
+    min-height: 600px;
+
+    background: #101A13;
+}
+
+.leaflet-container {
+
+    width: 100%;
+
+    height: 100%;
+
+    background: #101A13;
+}
+
+
+/* =========================================
+   LEAFLET ZOOM
+   ========================================= */
+
+.leaflet-control {
+
+    border: none !important;
+}
+
+.leaflet-control-zoom a {
+
+    background: #122019 !important;
+
+    color: #D4AF37 !important;
+
+    border-color: #34543E !important;
+}
+
+.leaflet-control-zoom a:hover {
+
+    background: #1A3024 !important;
+
+    color: #F1D46A !important;
+}
+
+
+/* =========================================
+   LAYER CONTROL
+   ========================================= */
+
+.leaflet-control-layers {
+
+    background: #122019 !important;
+
+    border: 1px solid #34543E !important;
+
+    border-radius: 6px !important;
+
+    color: #F4F1E6 !important;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.leaflet-control-layers-expanded {
+
+    padding: 12px 14px !important;
+}
+
+.leaflet-control-layers label {
+
+    color: #D8DED8;
+
+    font-size: 11px;
+
+    margin-bottom: 5px;
+}
+
+.leaflet-control-layers-separator {
+
+    border-top: 1px solid #34543E !important;
+}
+
+
+/* =========================================
+   POPUPS
+   ========================================= */
+
+.leaflet-popup-content-wrapper {
+
+    background: #122019;
+
+    color: #F4F1E6;
+
+    border: 1px solid #34543E;
+
+    border-radius: 7px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+.leaflet-popup-tip {
+
+    background: #122019;
+}
+
+.leaflet-popup-content {
+
+    margin: 14px 16px;
+
+    font-family: 'Inter', Arial, sans-serif;
+
+    font-size: 11px;
+
+    line-height: 1.6;
+}
+
+.leaflet-popup-content strong {
+
+    color: #D4AF37;
+
+    font-size: 14px;
+}
+
+.leaflet-popup-content b {
+
+    color: #C9D2C9;
+}
+
+.leaflet-popup-close-button {
+
+    color: #8FA08F !important;
+}
+
+.leaflet-popup-close-button:hover {
+
+    color: #D4AF37 !important;
+}
+
+
+/* =========================================
+   MAP FOOTER
+   ========================================= */
+
+.map-footer {
+
+    min-height: 48px;
+
+    padding: 8px 20px;
+
+    background: #0F1A13;
+
+    border-top: 1px solid #294332;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 35px;
+}
+
+.map-footer div {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+}
+
+.map-footer strong {
+
+    color: #D4AF37;
+
+    font-size: 8px;
+
+    letter-spacing: 0.7px;
+}
+
+.map-footer span {
+
+    color: #788878;
+
+    font-size: 9px;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+footer {
+
+    width: 94%;
+
+    max-width: 1550px;
+
+    margin: 0 auto 20px;
+
+    padding: 14px 4px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: #667466;
+
+    font-size: 9px;
+
+    letter-spacing: 0.3px;
+}
+
+footer span {
+
+    color: #526052;
+}
+
+
+/* =========================================
+   SCROLLBAR
+   ========================================= */
+
+::-webkit-scrollbar {
+
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+
+    background: #0B1510;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #34543E;
+
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #BFA13A;
+}
+
+
+/* =========================================
+   SELECTION
+   ========================================= */
+
+::selection {
+
+    background: #D4AF37;
+
+    color: #0B1510;
+}
+
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+
+@media (max-width: 950px) {
+
+    .dashboard {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .sidebar {
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 20px;
+    }
+
+    .student-box {
+
+        margin-top: 0;
+    }
+
+    #map {
+
+        min-height: 550px;
+
+        height: 550px;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .topbar {
+
+        height: auto;
+
+        padding: 18px 20px;
+
+        gap: 15px;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .brand h1 {
+
+        font-size: 16px;
+    }
+
+    .dashboard {
+
+        width: 95%;
+
+        margin-top: 15px;
+    }
+
+    .sidebar {
+
+        display: block;
+    }
+
+    .side-section {
+
+        margin-top: 10px;
+    }
+
+    .map-toolbar {
+
+        align-items: flex-start;
+
+        gap: 10px;
+
+        flex-direction: column;
+    }
+
+    .map-footer {
+
+        gap: 12px;
+
+        flex-wrap: wrap;
+    }
+
+    footer {
+
+        width: 95%;
+
+        flex-direction: column;
+
+        gap: 5px;
+    }
+}
+

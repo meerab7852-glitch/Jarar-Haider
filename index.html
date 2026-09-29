@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pakistan Interactive Web GIS</title>
+
+    <!-- Leaflet CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="topbar">
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                GIS
+            </div>
+
+            <div>
+                <h1>Pakistan Interactive Web GIS</h1>
+                <p>Geospatial Visualization & Weather Information System</p>
+            </div>
+
+        </div>
+
+        <div class="top-status">
+            <span class="status-light"></span>
+            SYSTEM ONLINE
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="dashboard">
+
+        <!-- ===== LEFT SIDEBAR ===== -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-heading">
+                <span class="gold-line"></span>
+                <h2>PROJECT OVERVIEW</h2>
+            </div>
+
+            <p class="description">
+                An interactive geographic information system for
+                exploring selected cities and weather stations
+                across Pakistan.
+            </p>
+
+
+            <!-- Project Information -->
+
+            <div class="side-section">
+
+                <h3>PROJECT INFORMATION</h3>
+
+                <div class="data-row">
+                    <span>Study Area</span>
+                    <strong>Pakistan</strong>
+                </div>
+
+                <div class="data-row">
+                    <span>System Type</span>
+                    <strong>Web GIS</strong>
+                </div>
+
+                <div class="data-row">
+                    <span>Mapping Platform</span>
+                    <strong>Leaflet</strong>
+                </div>
+
+                <div class="data-row">
+                    <span>Data Format</span>
+                    <strong>GeoJSON</strong>
+                </div>
+
+            </div>
+
+
+            <!-- Map Layers -->
+
+            <div class="side-section">
+
+                <h3>MAP LAYERS</h3>
+
+                <div class="layer-item">
+
+                    <span class="layer-symbol city-symbol"></span>
+
+                    <div>
+                        <strong>Major Cities</strong>
+                        <small>Urban locations</small>
+                    </div>
+
+                </div>
+
+
+                <div class="layer-item">
+
+                    <span class="layer-symbol weather-symbol"></span>
+
+                    <div>
+                        <strong>Weather Stations</strong>
+                        <small>Weather observations</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Weather Information -->
+
+            <div class="side-section weather-info">
+
+                <h3>WEATHER DATA</h3>
+
+                <p>
+                    Weather station points display available
+                    temperature and rainfall information.
+                </p>
+
+            </div>
+
+
+            <!-- Student -->
+
+            <div class="student-box">
+
+                <span>PREPARED BY</span>
+
+                <strong>Jarar Haider</strong>
+
+                <small>FA23-BRG-061</small>
+
+            </div>
+
+        </aside>
+
+
+        <!-- ===== MAP AREA ===== -->
+
+        <section class="map-area">
+
+            <div class="map-toolbar">
+
+                <div>
+
+                    <span class="map-label">
+                        INTERACTIVE MAP
+                    </span>
+
+                    <h2>Pakistan Geographic Information</h2>
+
+                </div>
+
+                <div class="map-tools">
+
+                    <span>
+                        ● LIVE DATA
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Map -->
+
+            <div id="map"></div>
+
+
+            <!-- Map Footer -->
+
+            <div class="map-footer">
+
+                <div>
+                    <strong>MAP DATA</strong>
+                    <span>OpenStreetMap</span>
+                </div>
+
+                <div>
+                    <strong>LAYERS</strong>
+                    <span>Cities & Weather Stations</span>
+                </div>
+
+                <div>
+                    <strong>FORMAT</strong>
+                    <span>GeoJSON</span>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div>
+            Pakistan Interactive Web GIS
+        </div>
+
+        <span>
+            Remote Sensing & GIS
+        </span>
+
+    </footer>
+
+
+    <!-- Leaflet JS -->
+
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+
+    <!-- Main JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
